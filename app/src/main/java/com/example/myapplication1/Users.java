@@ -1,32 +1,31 @@
 package com.example.myapplication1;
 
 public class Users {
-
-    private String username;
-    public String password;
-    public Users[] mUsers = new Users[10];
+    private String mUsername;
+    private String mPassword;
 
     public Users() {
+
     }
 
     public Users(String username, String password) {
-        this.username = username;
-        this.password = password;
+        mUsername = username;
+        mPassword = password;
     }
 
     public String getUsername() {
-        return username;
+        return mUsername;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        mUsername = username;
     }
 
     public String getPassword() {
-        return password;
+        return mPassword;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        mPassword = password;
     }
 }
