@@ -1,6 +1,8 @@
 package com.example.myapplication1;
 
-public class Users {
+import java.io.Serializable;
+
+public class Users implements Serializable {
     private String mUsername;
     private String mPassword;
 
